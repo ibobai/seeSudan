@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+      <script src="script.js" defer></script>
+      <title>Home</title>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="brand-title">See Sudan</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="">Happing Now In Sudan</a></li>
+            <li><a href="#">Cities</a></li>
+            <li><a href="#">Places To Go</a></li>
+            <li><a href="#">Things To Do</a></li>
+            <li><a href="#">Plan Your Trip</a></li>
+            <li><a href="beamember">Be A Member</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+            const toggleButton = document.getElementsByClassName('toggle-button')[0]
+            const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+            toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+            })
+      </script>
+    </body>
+</html>
