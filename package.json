@@ -6,16 +6,21 @@
   "scripts": {
     "devStart": "nodemon server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibobai/seeSudan.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/ibobai/seeSudan/issues"
+  },
+  "homepage": "https://github.com/ibobai/seeSudan#readme",
+  "devDependencies": {
     "bcrypt": "^3.0.7",
-    "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
     "nodemon": "^2.0.2"
   }
 }
